@@ -5,8 +5,9 @@ import css from "./Nav.module.css";
 
 export default function Nav() {
   const isLoggedIn = useSelector(selectIsLoggedIn);
+
   return (
-    <nav className={css.nsv}>
+    <nav className={css.nav}>
       <NavLink className={css.navLink} to="/">
         Home
       </NavLink>
